@@ -20,26 +20,6 @@ MailGen AI helps sales professionals, recruiters, freelancers, and businesses ge
 
 ---
 
-## 🛠 Tech Stack
-
-### Frontend
-- React.js
-- Tailwind CSS
-- React Router
-- Axios
-
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- JWT Authentication
-- Nodemailer
-
-### AI Integration
-- Groq API
-
----
-
 ## 📸 Screenshots
 
 ### Landing Page
@@ -90,6 +70,26 @@ MailGen AI helps sales professionals, recruiters, freelancers, and businesses ge
 
 
 ---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- React Router
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+- Nodemailer
+
+### AI Integration
+- Groq API
+
+...
 
 ## ⚙️ Installation
 
