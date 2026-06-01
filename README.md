@@ -1,74 +1,102 @@
-# 🚀 OUTREACH_PILOT_AI
+# 🚀 MailGen AI
 
-AI-powered cold outreach platform built with the MERN Stack and Groq AI. Generate personalized cold emails, LinkedIn DMs, and follow-up emails instantly to accelerate job outreach, networking, and sales campaigns.
+AI-powered cold email generation platform built with the MERN Stack.
 
-## ✨ Features
-
-* 🤖 AI-Powered Email Generation
-* 📩 Personalized Cold Emails
-* 💼 LinkedIn DM Generation
-* 🔄 Follow-Up Email Creation
-* 🔐 JWT Authentication
-* 📧 OTP Email Verification
-* 📜 Campaign History Tracking
-* 🎨 Modern Responsive UI
-* ⚡ Fast AI Responses with Groq API
+MailGen AI helps sales professionals, recruiters, freelancers, and businesses generate personalized outreach content instantly. Generate cold emails, LinkedIn DMs, follow-up emails, and subject lines using AI.
 
 ---
 
-## 🛠️ Tech Stack
+## 🌟 Features
+
+✅ AI-Powered Cold Email Generation  
+✅ LinkedIn DM Generation  
+✅ Follow-up Email Creation  
+✅ Personalized Subject Lines  
+✅ Secure Authentication & Authorization  
+✅ Email OTP Verification  
+✅ Responsive Modern UI  
+✅ Copy-to-Clipboard Functionality  
+✅ Dashboard for Managing Outreach Campaigns
+
+---
+
+## 🛠 Tech Stack
 
 ### Frontend
-
-* React.js
-* React Router
-* Tailwind CSS
-* Axios
-* Hero Icons
+- React.js
+- Tailwind CSS
+- React Router
+- Axios
 
 ### Backend
-
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* JWT Authentication
-* Nodemailer
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+- Nodemailer
 
 ### AI Integration
-
-* Groq API
-* Llama 3.3 70B Versatile Model
+- Groq API
 
 ---
 
-## 📂 Project Structure
+## 📸 Screenshots
 
-```bash
-OUTREACH_PILOT_AI/
-│
-├── Frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── Backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── middleware/
-│   ├── models/
-│   ├── config/
-│   └── server.js
-│
-└── README.md
-```
+### Landing Page
 
-## 🔧 Installation
+<img width="1907" height="700" alt="Screenshot 2026-05-31 120405" src="https://github.com/user-attachments/assets/70ee3255-5764-47ed-8cd8-e4f10315798b" />
+
+
+---
+
+### Features Section
+
+<img width="1891" height="727" alt="Screenshot 2026-05-31 120452" src="https://github.com/user-attachments/assets/9945778d-c2cd-4343-8c64-e02285068f4c" />
+
+
+---
+
+### CTA Section
+
+<img width="1902" height="859" alt="Screenshot 2026-05-31 120518" src="https://github.com/user-attachments/assets/56f07783-f82f-4311-857b-ea398d5d1aff" />
+
+
+---
+
+### User Registration
+
+<img width="1117" height="714" alt="Screenshot 2026-05-31 120909" src="https://github.com/user-attachments/assets/3bd868e7-b044-4930-8686-f4c0c3d9d139" />
+
+
+---
+
+### Email Verification
+
+<img width="892" height="593" alt="Screenshot 2026-05-31 120930" src="https://github.com/user-attachments/assets/ea6f4cc4-181c-40a4-bb17-e491b26a7356" />
+
+
+---
+
+### Dashboard
+
+<img width="1904" height="864" alt="Screenshot 2026-05-31 121154" src="https://github.com/user-attachments/assets/f138c50d-00e2-4a7e-9fdd-3557a7d95bfe" />
+
+
+---
+
+### AI Generated Results
+
+<img width="1885" height="864" alt="Screenshot 2026-06-01 113355" src="https://github.com/user-attachments/assets/9562e248-60c4-44b4-b18e-6193ccdffa77" />
+
+
+---
+
+## ⚙️ Installation
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/OUTREACH_PILOT_AI.git
+git clone https://github.com/Rahul70079/OUTREACH_PILOT_AI.git
 cd OUTREACH_PILOT_AI
 ```
 
@@ -77,26 +105,6 @@ cd OUTREACH_PILOT_AI
 ```bash
 cd Backend
 npm install
-```
-
-Create `.env`
-
-```env
-PORT=5000
-
-MONGODB_URI=your_mongodb_connection_string
-
-GROQ_API_KEY=your_groq_api_key
-
-JWT_SECRET=your_jwt_secret
-
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_app_password
-```
-
-Run Backend
-
-```bash
 npm run dev
 ```
 
@@ -110,76 +118,33 @@ npm run dev
 
 ---
 
-## 🚀 Usage
+## 🔑 Environment Variables
 
-1. Register a new account.
-2. Verify your email using OTP.
-3. Login to the dashboard.
-4. Create a new campaign.
-5. Enter context or prompt.
-6. Generate:
+Create a `.env` file inside Backend folder:
 
-   * Cold Email
-   * LinkedIn DM
-   * Follow-Up Email
-7. Save and access campaign history anytime.
+```env
+PORT=5000
 
----
+MONGODB_URI=your_mongodb_uri
 
-## 🔐 Environment Variables
+JWT_SECRET=your_jwt_secret
 
-| Variable     | Description               |
-| ------------ | ------------------------- |
-| PORT         | Backend Port              |
-| MONGODB_URI  | MongoDB Connection String |
-| GROQ_API_KEY | Groq AI API Key           |
-| JWT_SECRET   | JWT Secret Key            |
-| EMAIL_USER   | Gmail Address             |
-| EMAIL_PASS   | Gmail App Password        |
+EMAIL_USER=your_email
+EMAIL_PASS=your_email_password
 
----
-
-## 🎯 Example Prompt
-
-```text
-MERN Stack Developer with 1+ years of experience seeking Software Engineer opportunities in product-based companies.
+GROQ_API_KEY=your_groq_api_key
 ```
 
-Generated Output:
-
-* Subject Line
-* Personalized Cold Email
-* LinkedIn DM
-* Follow-Up Email
-
 ---
 
-## 🌟 Future Enhancements
+## 🚀 Future Enhancements
 
-* Multi-AI Model Support
-* Campaign Analytics
-* Email Scheduling
-* CRM Integration
-* Team Collaboration
-* Export to PDF
-* AI Personalization Scoring
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
+- Campaign History
+- Email Analytics
+- Multi-User Workspace
+- CRM Integration
+- Export Generated Emails
+- AI Personalization Improvements
 
 ---
 
@@ -187,4 +152,6 @@ GitHub: https://github.com/Rahul70079
 
 ---
 
-⭐ If you found this project useful, please consider giving it a star.
+## 📜 License
+
+This project is licensed under the MIT License.
